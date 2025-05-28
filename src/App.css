@@ -1,0 +1,109 @@
+.app {
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: #0a0a0a;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(156, 154, 154, 0.1);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  align-content: center;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #5b66e4;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #e8d9d9;
+  font-weight: 400;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  margin: 0 0 16px 0;
+  border: 1px solid #b7acac;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"]:focus {
+  border: 1.5px solid #4456c9;
+  outline: none;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+          /* Full viewport height */
+  background-color: #070606;
+  text-align: center;
+}
+
+button {
+  background: #1026b2;
+  color: #f1ecec;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 8px 16px 8px;
+  transition: background 0.2s;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button:hover {
+  background: #0d1c91; /* Darker shade of blue */
+}
+
+.download-btn:hover {
+  background: #388e3c; /* Darker shade of green */
+}
+
+
+button:disabled {
+  background: #b3b6ce;
+  cursor: not-allowed;
+}
+
+.download-btn {
+  background: #43a047;
+  margin-top: 12px;
+}
+
+.result {
+  background: #f5f7fa;
+  border-radius: 8px;
+  padding: 18px 16px;
+  margin: 24px 0 12px 0;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.06);
+}
+
+.result h2 {
+  color: #08cd22;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.error {
+  color: #d32f2f;
+  background: #fff3f3;
+  border: 1px solid #ffcdd2;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin: 16px 0;
+  text-align: center;
+}

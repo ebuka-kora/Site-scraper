@@ -1,0 +1,86 @@
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #61dafb;
+  transform: scale(1.2);
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter-form input {
+  padding: 8px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  width: 209px;
+}
+
+.newsletter-form button {
+  padding: 9px 8px 12px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.newsletter-form button:hover {
+  background-color: #21a1f1;
+}
+
+.confirmation {
+  color: #90ee90;
+  font-weight: bold;
+  margin-top: 8px;
+}
