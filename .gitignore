@@ -47,3 +47,5 @@ backend/scraped_assets/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+.git.bak/
